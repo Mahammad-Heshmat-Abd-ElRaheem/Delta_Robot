@@ -10,7 +10,6 @@ The robot performs the following functions:
 
 - Detects incoming objects on the main conveyor using a **proximity sensor**.
 - Uses the **ESP32-CAM** module to capture images and classify object colors (*green* or *blue*).
-- Calculates inverse kinematics to position the delta robot end effector precisely over the detected object.
 - Activates the gripper and rotation servos to pick the object.
 - Moves the object to the target conveyor belt depending on its color.
 
@@ -36,9 +35,6 @@ The robot performs the following functions:
 ---
 
 ## ⚙️ Software and Functionality
-
-- **Delta Kinematics:**
-  - The system computes inverse kinematics to move the robot end effector accurately in 3D space.
 
 - **Color Detection:**
   - ESP32-CAM captures images and processes them to classify objects as green or blue.

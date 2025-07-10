@@ -3,6 +3,11 @@
 This project implements an automated **delta robot** system capable of identifying colored objects on a main conveyor belt and sorting them onto two dedicated conveyors based on color classification. The system integrates precise kinematics, real-time object detection, and multi-axis motion control.
 
 ---
+## 🎥 Demo Video
+
+![Demo GIF](docs/videos/Delta_Robot_Demo.mp4)
+
+---
 
 ## 🎯 Overview
 
